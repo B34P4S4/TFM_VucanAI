@@ -1,4 +1,6 @@
-# Code Vulnerability Analyzer with AI - VucanAI
+# Analizador de vulnerabilidades de código con IA - Code Vulnerability Analyzer with AI  
+# Nombre: VucanAI
+# Autor: B34P4S4
 
 VucanAI es una aplicación que utiliza el modelo ChatGPT 3.5 Turbo para analizar el código y detectar posibles vulnerabilidades de seguridad. La aplicación está desarrollada con Node.js en el backend y React.js en el frontend. Ofrece un dashboard que mapea distintas fuentes descriptivas de la vulnerabilidad detectada y ofrece recomendaciones para mitigar el riesgo que conlleve.
 
