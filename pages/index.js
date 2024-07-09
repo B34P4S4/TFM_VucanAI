@@ -123,8 +123,6 @@ export default function Home() {
     "1.1.¿Es vulnerable? Solo sí o no."+
     "1.2.Nombre de la vulnerabilidad."+
     "1.3.Explica brevemente en qué consiste esta vulnerabilidad."+
-    //"1.4.Dame el número de la línea en que se produce la entrada de código malicioso del 1 al "+codev.length+"."+
-    //"1.5.Dame el número de la línea en que se ejecuta la vulnerabilidad del 1 al "+codev.length+"."+
     "1.4.Dime la línea en que se produce la entrada de código malicioso."+
     "1.5.Dime la línea en que se ejecuta la vulnerabilidad."+
     "2.1.Nivel de Common Vulnerability Score System del 1 al 4, siendo 4 el más grave. En formato número."+
@@ -145,8 +143,8 @@ export default function Home() {
     "1.1.Are you vulnerable? Only yes or no."+
     "1.2.Name of the vulnerability."+
     "1.3.Explain briefly what this vulnerability consists of."+
-    "1.4.From 1 to "+codev.length+", line number in which the entry of malicious code takes place. In number format."+
-    "1.5.From 1 to "+codev.length+", line number in which the vulnerability is executed.  In number format."+
+    "1.4.Tell me the line where the entry of malicious code takes place."+
+    "1.5.Tell me the line where the vulnerability is executed."+
     "2.1.Common Vulnerability Score System level from 1 to 4, with 4 being the most severe."+
     "2.2.Impact level of the risk from 1 to 5, with 5 being the highest impact."+
     "2.3.Probability level of the risk from 1 to 5, with 5 being the most probable."+
@@ -630,8 +628,8 @@ export default function Home() {
     if(lang==false){
       VulTxt = "Vulnerability: ";
       introTxt = "Found vulnerability "+nameV+", which has ";
-      LinSourceTxt ="Source Line: ";
-      LinSinkTxt = "Sink Line: ";
+      LinSourceTxt ="Source Line";
+      LinSinkTxt = "Sink Line";
     } 
 
     //PDF//
